@@ -5,8 +5,78 @@
 
  .body-colour{
  	background-color: blue;
+
  }
+.prod
+{
+float: right;
+text-decoration: none;
 
 
 
+
+
+}
+a:link, a:hover{
+	text-decoration: none;
+	color: red
+}
+.boy{
+	float: right;
+	clear: right;
+	text-shadow: 20px
+}
+nav{
+	background-color: gold;
+	height: 70px
+
+
+
+}
+img{
+	width: 1300px;
+	border-top: 5px}
+	p{
+		margin-left: 10px;
+		margin-right: 0px
+	}
+	a{
+		float: left;
+	}
+	.logo{
+		background: no-repeat;
+		height:0px;
+	}
+.one{
+	background-color: green;
+	width:300px;
+	height: 300px;
+	float: right;
+	margin: 20px
+}
+.two{
+	background-color: green;
+	width:300px;
+	height: 300px;
+	float: right;
+	margin:20px
+	
+
+}
+.three{
+	background-color: green;
+	width:300px;
+	height: 300px;
+	float: right;
+	margin: 20px
+
+}
+.float{
+	margin: 150px
+	margin-top:5px;
+
+}
+.bod{
+	background-color: gold;
+	margin-top: 10px
 }
