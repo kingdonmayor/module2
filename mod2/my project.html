@@ -18,18 +18,20 @@
 		<p class="navbar-brand"> <a href="my project.html"><h1>Food,LLC</h1></a></p>
 	</div>
 
-	<div class="button"> 
-	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-   
-          </button>
+	 <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="collapsable-nav">
+      <ul id="nav-list" class="nav navbar-nav navbar-right">
+        <li class="active">
+        	<a class="visible-xs " href="#chick">chicken <span class="sr-only">menu</span></a></li>
+        <li><a class="visible-xs " href="#beef"> beef</a></li>
+        <li><a class="visible-xs " href="#sushi"> sushi</a></li>
+      </ul>
         </div>
 
              
@@ -39,8 +41,8 @@
 	<h2 class="text-center">Our Menu</h2>
 	<div class="container" >
 	<div class="row">
-	<div class="top" class="col-xs-12">
-	<h3>chicken</h3><section>    Does the implementation use inline CSS styles at all (not allowed) or does it reference an external CSS file?
+	<div class="top" class="col-md-12 col-sm-12 col-xs-12">
+	<h3 id="chick">chicken</h3><section>    Does the implementation use inline CSS styles at all (not allowed) or does it reference an external CSS file?
     Is the default navbar implemented such that it scrolls away with the page, i.e., it's not statically attached to the top of bottom of the screen?
     Does the brand name "Food, LLC" properly aligned to the left of the navbar and does it use navbar-brand class?
     Is the dropdown menu button only visible when the browser is narrow enough to be in mobile view?
@@ -48,8 +50,8 @@
     Is the page heading, "Our Menu", centered on the screen using the Bootstrap class?
     Is the single cell section (or multiple sections as per optional part of the assignment) using the Bootstrap Grid System and is the section tall enough to force the viewer to scroll if they wanted to get to the bottom of the page. </section></div>
 
-	<div class="mid" class="col-xs-12">
-	<h3>chicken</h3><section>    Does the implementation use inline CSS styles at all (not allowed) or does it reference an external CSS file?
+	<div class="mid" class="col-md-12 col-sm-12 col-xs-12">
+	<h3>beef</h3><section>    Does the implementation use inline CSS styles at all (not allowed) or does it reference an external CSS file?
     Is the default navbar implemented such that it scrolls away with the page, i.e., it's not statically attached to the top of bottom of the screen?
     Does the brand name "Food, LLC" properly aligned to the left of the navbar and does it use navbar-brand class?
     Is the dropdown menu button only visible when the browser is narrow enough to be in mobile view?
@@ -57,8 +59,8 @@
     Is the page heading, "Our Menu", centered on the screen using the Bootstrap class?
     Is the single cell section (or multiple sections as per optional part of the assignment) using the Bootstrap Grid System and is the section tall enough to force the viewer to scroll if they wanted to get to the bottom of the page. </section></div>
 
-<div class="bot" class=" col-xs-12">
-	<h3>chicken</h3><section>    Does the implementation use inline CSS styles at all (not allowed) or does it reference an external CSS file?
+<div class="bot" class="col-md-12 col-sm-12 col-xs-12">
+	<h3>sushi</h3><section>    Does the implementation use inline CSS styles at all (not allowed) or does it reference an external CSS file?
     Is the default navbar implemented such that it scrolls away with the page, i.e., it's not statically attached to the top of bottom of the screen?
     Does the brand name "Food, LLC" properly aligned to the left of the navbar and does it use navbar-brand class?
     Is the dropdown menu button only visible when the browser is narrow enough to be in mobile view?
@@ -81,6 +83,7 @@
 
 <script scr="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 
 
 
