@@ -1,0 +1,54 @@
+#header-nav{
+	background-color: gold;
+	height: 90px
+}
+
+
+h3{
+	text-align: center;
+
+	
+}
+.top{
+	margin-top: 5px;
+	background-color: grey;
+
+}
+.mid{
+	background-color: grey
+}
+.bot{
+	background-color: grey;
+}
+section{
+	margin: 10px;
+	color: red;
+	text-align: center;
+	height: 900px
+
+
+
+
+}
+#btn{
+	border-color: red
+
+}
+ a:link , a:hover
+{
+	text-decoration: none;
+	color: red;
+
+
+}
+li{
+	color: yellow;
+	background-color: pink;
+
+	text-align: center;
+
+	
+}
+
+
+
