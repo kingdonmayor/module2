@@ -1,11 +1,43 @@
+*{
+	box-sizing: border-box;
+}
 
- *{
- 	box-sizing: border-box;
- }
 
- body{
- 	background-color: green;
- }
- header{
- 	background-color: red;
- }
+#header-nav{
+	background-color: gold;
+}
+
+
+h3{
+	text-align: center;
+
+	
+}
+.top{
+	margin-top: 5px;
+	background-color: grey;
+
+}
+.mid{
+	background-color: grey
+}
+.bot{
+	background-color: grey;
+}
+section{
+	text-align: center;
+	height: 900px
+
+
+
+}
+
+.col-xs-12{
+	margin-right: 20px
+}
+
+
+
+
+
+
